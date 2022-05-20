@@ -1,0 +1,33 @@
+:root {
+  --yellow: rgb(255 235 59 / 49%);
+  --orange: rgb(255 152 0 / 50%);
+}
+  
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  
+    /* BEGIN (write your solution here) */
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      var(--yellow),
+      var(--yellow) 100px,
+      var(--orange) 100px,
+      var(--orange) 200px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      var(--orange),
+      var(--orange) 100px,
+      var(--yellow) 100px,
+      var(--yellow) 200px
+    );
+  
+    /* END */
+}
+  

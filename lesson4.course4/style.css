@@ -1,0 +1,15 @@
+/* BEGIN (write your solution here) */
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  
+    background-color: yellowgreen;
+  }
+  
+  .catalog-item {
+    width: 350px;
+  }
+  
+  /* END */
+  
